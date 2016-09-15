@@ -43,4 +43,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # non default gems (ones I'm adding)
+#user authentication system
 gem 'devise', '~> 4.2'
+# package manager for front end frameworks
+gem 'bower-rails', '~> 0.10.0'
