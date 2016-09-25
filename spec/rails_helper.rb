@@ -7,7 +7,7 @@ require 'spec_helper'
 require 'rspec/rails'
 require 'capybara/poltergeist'
 
-Cpaybara.javascript_driver = :poltergeist
+Capybara.javascript_driver = :poltergeist
 Capybara.default_driver = :poltergeist
 
 # Add additional requires below this line. Rails is not loaded until this point!
